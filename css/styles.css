@@ -390,21 +390,20 @@ button
 .header
 {
     background: #706559;
-	padding: 34px 0;
+	padding: 32px 0 65px;
 	color: #F7EEE3;
 }
 
 .header__wrap
 {
 	flex-wrap: nowrap;
+	margin-top: 23px;
 }
 
 .header__logo
 {
 	width: 100%;
 	max-width: 210px;
-
-	align-self: center;
 }
 
 .header__logo a
@@ -422,7 +421,7 @@ button
 .header__info
 {
 	margin-left: 47px;
-	padding-bottom: 30px;
+	padding-top: 32px;
 
 	width: 100%;
 }
@@ -432,6 +431,10 @@ button
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
+	gap: 0 20px;
+	flex-wrap: nowrap;
+	max-width: 1264px;
+	margin-left: auto;
 }
 
 .header__adres
@@ -514,9 +517,14 @@ button
 	background: url(../images/ic_tel.svg) 50% no-repeat;
 }
 
+.header__socials-box{
+	padding-left: 15px;
+}
+
 .main-socials 
 {
 	position: relative;
+	flex-wrap: nowrap;
 }
 
 .main-socials-link + .main-socials-link 
@@ -572,7 +580,6 @@ button
 
 .nav-menu
 {
-	margin-top: 50px;
 	justify-content: center;
 }
 
@@ -580,6 +587,7 @@ button
 {
 	position: relative;
 	font-size: 20px;
+	line-height: normal;
 }
 
 .nav-menu__item + .nav-menu__item
@@ -617,20 +625,22 @@ button
     position: absolute;
     z-index: 99;
     top: calc(100% + 10px);
-    left: 0;
+    left: -20px;
     visibility: hidden;
-    min-width: 180px;
+    width: 220px;
     transition: .2s linear;
     pointer-events: none;
     opacity: 0;
 
 	font-size: 15px;
 	line-height: normal;
+	background: #706559;
+	padding: 6px 20px 20px;
 }
 
 .nav-menu__sub-menu div + div
 {
-	margin-top: 10px;
+	margin-top: 12px;
 }
 
 @media (any-hover: hover)
@@ -657,7 +667,7 @@ button
 
 .header__modal-sign
 {
-	margin-top: 55px;
+	margin-top: 62px;
 	text-align: center;
 }
 /*------------
@@ -2435,4 +2445,23 @@ html.with-fancybox{
 
     border-radius: 10px;
     background: #FFF;
+}
+
+@media (max-width: 1600px)
+{
+	
+    /*------------
+		commit
+	------------*/
+	
+}
+
+
+@media (max-width: 1500px)
+{
+	
+    /*------------
+		commit
+	------------*/
+	
 }
