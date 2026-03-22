@@ -4,5 +4,104 @@
     /*------------
 		commit
 	------------*/
-	
+	.main-title {
+		font-size: 18px;
+	}
+
+	.main-title span{
+		display: block;
+	}
+
+
+	.slider-pagination{
+		display: flex;
+	}
+
+
+	.section-compare_pad{
+		padding: 30px 0;
+	}
+
+	.section-compare__item {
+		width: calc(100% / 2 - 16px);
+	}
+
+
+	.main-gallery_pad{
+		padding-bottom: 30px;
+	}
+
+
+	.section-map{
+		height: 150px;
+	}
+
+
+	.footer{
+		padding-top: 14px;
+	}
+
+	.footer__menu-item{
+		font-size: 16px;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.footer__menu-item + .footer__menu-item{
+		margin-top: 16px;
+	}
+
+	.footer__contacts{
+		width: 100%;
+	}
+
+	.footer__title{
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.footer__adres{
+		font-size: 16px;
+	}
+
+	.footer__contacts-item{
+		font-size: 16px;
+		line-height: normal;
+	}
+
+	.footer__contacts-item a{
+		padding-left: 23px;
+	}
+
+	.footer__contacts-phone::before,
+	.footer__contacts-mail::before{
+		background-size: contain;
+		width: 13px;
+		height: 12px;
+		margin-top: -6px;
+	}
+
+	.footer__socials .main-socials-link{
+		width: 20px;
+		height: 20px;
+	}
+
+	.footer__socials .main-socials-link + .main-socials-link{
+		margin-left: 8px;
+	}
+
+	.footer__socials .main-socials-link._socials-prohibited:after{
+		width: 6px;
+		height: 6px;
+		background-size: contain;
+		left: -10px;
+	}
+
+	.footer__socials .main-socials{
+		padding-left: 10px;
+	}
+
+	.footer__socials-desc{
+		margin-top: 8px;
+	}
 }

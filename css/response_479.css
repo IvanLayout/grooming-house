@@ -4,5 +4,63 @@
     /*------------
 		commit
 	------------*/
-	
+	.section-compare .cont{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.section-compare .main-title{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+	.section-compare__grid {
+		gap: 20px 0;
+		margin-left: -10px;
+	}
+
+	.section-compare__item {
+		width: calc(100% / 2 - 10px);
+		border-radius: 5px;
+		margin-left: 10px;
+	}
+
+	.main-gallery__img {
+		border-radius: 5px;
+	}
+
+
+	.section-map{
+		height: 120px;
+	}
+
+
+	.footer__menu-item{
+		font-size: 12px;
+	}
+
+	.footer__title{
+		font-size: 12px;
+	}
+
+	.footer__adres{
+		font-size: 12px;
+	}
+
+	.footer__contacts-item{
+		font-size: 12px;
+	}
+
+	.footer__socials{
+		width: 118px;
+	}
+
+	.footer__socials-desc{
+		font-size: 10px;
+	}
+
+	.footer__socials .main-socials-link{
+		width: 17px;
+		height: 17px;
+	}
 }
