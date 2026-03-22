@@ -37,6 +37,44 @@
 	}
 
 
+	.section-top{
+		padding: 21px 0;
+	}
+
+	
+	.salon-manager{
+		padding: 21px 0;
+	}
+
+	.salon-manager__cols{
+		gap: 14px;
+		justify-content: center;
+	}
+
+	.salon-manager__coll{
+		width: 100%;
+		order: 2;
+	}
+
+	.salon-manager__colr {
+		width: 76.34%;
+	}
+
+	.salon-manager__photo{
+		aspect-ratio: 1;
+		border-radius: 5px;
+	}
+
+
+	.gallery-salon{
+		padding: 21px 0;
+	}
+
+	.gallery-salon__photo{
+		border-radius: 5px;
+	}
+
+
 	.footer{
 		padding-top: 14px;
 	}

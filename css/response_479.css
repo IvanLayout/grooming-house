@@ -35,6 +35,16 @@
 	}
 
 
+	body{
+		font-size: 12px;
+	}
+
+
+	.gallery-salon__slider{
+		margin-top: 21px;
+	}
+
+
 	.footer__menu-item{
 		font-size: 12px;
 	}
