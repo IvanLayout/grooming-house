@@ -429,7 +429,8 @@
 
 	.error-page__box{
 		max-width: 520px;
-		width: 84%;
+		width: 76.4%;
+		border-radius: 10px;
 	}
 
 	.error-page__title{
@@ -442,6 +443,62 @@
 
 	.error-page__img{
 		display: none;
+	}
+
+
+	.contacts_pad{
+		padding-bottom: 50px;
+	}
+
+	.contacts_marg{
+		margin-top: -30px;
+	}
+
+	.contacts__cols{
+		gap: 20px;
+	}
+
+	.contacts__colr {
+		width: calc(45% - 20px);
+	}
+
+	.contacts__img{
+		border-radius: 10px;
+	}
+
+	.contacts__item + .contacts__item{
+		margin-top: 20px;
+	}
+
+	.contacts__title{
+		font-size: 18px;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	.contacts__text{
+		font-size: 14px;
+		margin-top: 6px;
+	}
+
+	.contacts .main-socials{
+		margin-top: 20px;
+	}
+
+	.contacts .main-socials-link{
+		width: 24px;
+		height: 24px;
+	}
+
+	.contacts .main-socials-link + .main-socials-link{
+		margin-left: 20px;
+	}
+
+	.contacts .main-socials-link._socials-prohibited:after {
+		width: 10px;
+		height: 10px;
+		left: -10px;
+		top: -5px;
 	}
 
 

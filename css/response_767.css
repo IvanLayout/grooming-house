@@ -200,6 +200,10 @@
 		padding: 25px 0;
 	}
 
+	.error-page__box{
+		border-radius: 5px;
+	}
+
 	.error-page__title{
 		font-size: 60px;
 	}
@@ -207,6 +211,74 @@
 	.error-page__desc{
 		font-size: 12px;
 		margin-top: 0;
+	}
+
+
+	.contacts_pad{
+		padding-bottom: 25px;
+	}
+
+	.contacts_marg{
+		margin-top: 0;
+	}
+
+	.contacts__cols{
+		gap: 17px;
+		max-width: 76.34%;
+		margin: 0 auto;
+	}
+
+	.contacts__colr {
+		width: 100%;
+		max-width: none;
+	}
+
+	.contacts__img{
+		border-radius: 5px;
+	}
+
+	.contacts__coll{
+		width: 100%;
+		max-width: none;
+		order: 2;
+	}
+
+	.contacts__item + .contacts__item{
+		margin-top: 15px;
+	}
+
+	.contacts__title{
+		font-size: 16px;
+	}
+
+	.contacts__text{
+		font-size: 12px;
+		margin-top: 0;
+	}
+
+	.contacts__title_center{
+		text-align: center;
+	}
+
+	.contacts .main-socials{
+		margin-top: 15px;
+		justify-content: center;
+	}
+
+	.contacts .main-socials-link{
+		width: 20px;
+		height: 20px;
+	}
+
+	.contacts .main-socials-link + .main-socials-link{
+		margin-left: 14px;
+	}
+
+	.contacts .main-socials-link._socials-prohibited:after {
+		width: 6px;
+		height: 6px;
+		left: -6px;
+		top: -3px;
 	}
 
 
