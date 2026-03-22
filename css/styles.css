@@ -2481,6 +2481,42 @@ html.with-fancybox{
 @media (max-width: 1500px)
 {
 	
+	.services__grid
+	{
+		margin-top: 16px;
+	}
+
+	.section-discount__btn
+	{
+		margin-top: 40px;
+	}
+
+	.nav-menu__item + .nav-menu__item 
+	{
+		margin-left: 100px;
+	}
+
+
+	.first-section__img
+	{
+		right: -40px;
+	}
+
+	.first-section__wrap
+	{
+		max-width: 620px;
+	}
+
+
+	.services__item
+	{
+		padding: 40px 30px;
+	}
+
+	.services__name
+	{
+		font-size: 28px;
+	}
     /*------------
 		commit
 	------------*/
