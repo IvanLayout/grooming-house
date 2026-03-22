@@ -241,6 +241,10 @@
     /*------------
 		commit
 	------------*/
+	.breadcrumbs{
+		padding: 20px 0;
+	}
+
 	.cont_slider{
 		padding-left: 13px;
 		padding-right: 13px;
@@ -336,12 +340,29 @@
 	}
 
 	.gallery-salon__photo{
-		border-radius: 5px;
+		border-radius: 10px;
 	}
 
 
 	.gallery-salon__slider{
 		margin-top: 26px;
+	}
+
+
+	.about{
+		padding: 50px 0;
+	}
+
+	.about__coll {
+    	width: calc(50% - 20px);
+	}
+
+	.about__colr{
+		width: 50%;
+	}
+
+	.about__img{
+		border-radius: 10px;
 	}
 
 
