@@ -93,8 +93,8 @@ $(() => {
 	
 
 
-	if ($('.products__slider').length) {
-		new Swiper(".products__slider", {
+	if ($('.main-gallery__slider').length) {
+		new Swiper(".main-gallery__slider", {
 			loop: false,
 			spaceBetween: 8,
 			slidesPerView: 'auto',
@@ -132,28 +132,13 @@ $(() => {
 				},
 				'1320': {
 					spaceBetween: 20,
-					slidesPerView: 5,
+					slidesPerView: 3,
 				}
 			},
 			on: {
 				init: function (swiper) {
 					$(swiper.el).find('.swiper-wrapper').wrap('<div class="swiper-overflow"></div>')
-
-					$(swiper.el).find('.product__box, .product__availability, .product__prices').height('auto')
-
-					setHeight( $(swiper.el).find('.product__box') )
-					setHeight( $(swiper.el).find('.product__availability') )
-					setHeight( $(swiper.el).find('.product__prices') )
-				},
-				resize: function (swiper) {
-					$(swiper.el).find('.product__box, .product__availability, .product__prices').height('auto')
-
-					// setTimeout(function(){
-						setHeight( $(swiper.el).find('.product__box') )
-						setHeight( $(swiper.el).find('.product__availability') )
-						setHeight( $(swiper.el).find('.product__prices') )
-					// }, 200)
-				},
+				}
 			}
 		})
 	}

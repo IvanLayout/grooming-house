@@ -57,7 +57,52 @@ $(() => {
 
 	// commit
 
+	// Fancybox
+	Fancybox.defaults.autoFocus = false
+	Fancybox.defaults.dragToClose = false
+	Fancybox.defaults.placeFocusBack = false
 
+	Fancybox.defaults.template = {
+		closeButton: '<svg viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L16 16" stroke-linecap="round"/><path d="M16 1L1 16" stroke-linecap="round"/></svg>',
+	}
+
+	// Всплывающие окна
+	$('body').on('click', '.modal-btn', function (e) {
+		e.preventDefault()
+
+		Fancybox.close()
+
+		Fancybox.show([{
+			src: $(this).data('content'),
+			type: 'inline'
+		}],
+		{
+			on: {
+				destroy: (fancyboxRef) => {
+					$('.modal').find('video').each(function () {
+						this.pause()
+					})
+				},
+			},
+		})
+	})
+
+	$('body').on('click', '.modal-close', function (e) {
+		e.preventDefault()
+
+		Fancybox.close()
+	})
+
+
+	// Увеличение картинки
+	Fancybox.bind('.fancy-img', {
+		Image: {
+			zoom: false,
+		},
+		Thumbs: {
+			autoStart: false,
+		}
+	})
 })
 
 
@@ -76,6 +121,8 @@ const widthScroll = () => {
 	div.style.width = '50px'
 	div.style.height = '50px'
 	div.style.visibility = 'hidden'
+
+	div.style.scrollbarWidth = 'thin';
 
 	document.body.appendChild(div)
 

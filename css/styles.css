@@ -171,7 +171,7 @@ input[type=number]
     --font-family: "Commissioner", sans-serif;
 	--font-family2: "TenorSans", sans-serif;
 
-    --scroll_width: 17px;
+    --scroll_width: 10px;
 }
 
 
@@ -547,7 +547,7 @@ button
 	position: absolute;
 	content: '';
 	top: 0;
-	left: -12px;
+	left: -15px;
 
 	display: block;
 
@@ -681,8 +681,10 @@ button
     vertical-align: top;
     text-decoration: none;
 
-    border-radius: 999px;
-    background: linear-gradient(90deg, #F2DA96, #D8B75A);
+    border-radius: 50px;
+    background: linear-gradient(to right, rgba(242,218,150,1) 0%,rgba(216,183,90,1) 50%,rgba(242,218,150,1) 100%);
+	background-size: 200% auto;
+    background-position: 0 center;
 
     transition: background .2s linear;
 }
@@ -690,9 +692,9 @@ button
 
 @media (any-hover: hover)
 {
-    .btn-red:hover
+    .btn-gold:hover
     {
-        background: #D30000;
+        background-position: 100% center;
     }
 }
 
@@ -2090,13 +2092,204 @@ html.with-fancybox{
 /*------------
     commit
 ------------*/
+.sector-bg{
+	background: url(../images/tmp/bg_1.jpg) top center/100% auto repeat-y;
+}
+
+.section-compare_pad{
+	padding: 76px 0;
+}
+
+.section-compare__grid{
+	margin-top: 84px;
+	gap: 20px 0;
+	margin-left: -20px;
+}
+
+.section-compare__item{
+	display: block;
+	width: calc(100%/4 - 20px);
+	text-decoration: none;
+	overflow: hidden;
+	border-radius: 20px;
+	margin-left: 20px;
+}
+
+.section-compare__item img{
+	display: block;
+	width: 100%;
+	aspect-ratio: 1;
+}
+
+.main-gallery_pad{
+	padding-bottom: 90px;
+}
+
+.main-gallery__slider{
+	margin-top: 84px;
+}
+
+.main-gallery .swiper-slide{
+	height: auto;
+}
+
+.main-gallery__flex{
+	gap: 20px;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.main-gallery__img{
+	min-height: 100%;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	border-radius: 20px;
+	text-decoration: none;
+	aspect-ratio: 1/1.2;
+}
+
+.main-gallery__img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.main-gallery__flex .main-gallery__img{
+	width: calc(50% - 10px);
+}
+
+.section-map{
+	height: 417px;
+}
 
 /*------------
     Footer
 ------------*/
 .footer
 {
-	
+	background: #706559;
+	padding: 56px 0;
+}
+
+.footer .cont{
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.footer__logo{
+	display: block;
+	width: 237px;
+}
+
+.footer__logo img{
+	display: block;
+	max-width: 100%;
+}
+
+.footer__menu-item{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 2;
+	color: #F7EEE3;
+}
+
+.footer__menu-item a{
+	color: currentColor;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: border .2s linear;
+}
+
+@media (any-hover: hover){
+	.footer__menu-item a:hover{
+		border-bottom-color: currentColor;
+	}
+}
+
+.footer__contacts{
+	width: 493px;
+}
+
+.footer__title{
+	font-weight: 500;
+	font-size: 25px;
+	color: #F7EEE3;
+	line-height: normal;
+}
+
+.footer__adres{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.56;
+	color: #F7EEE3;
+	margin-top: 3px;
+}
+
+.footer__contacts-flex{
+	margin-top: 16px;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	gap: 20px;
+}
+
+.footer__contacts-item{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.78;
+	color: #F7EEE3;
+}
+
+.footer__contacts-item + .footer__contacts-item{
+	margin-top: 14px;
+}
+
+.footer__contacts-item a{
+	color: currentColor;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 32px;
+	position: relative;
+}
+
+.footer__contacts-phone::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 22px;
+	height: 18px;
+	margin-top: -9px;
+	background: url(../images/ic_tel.svg) 50% no-repeat;
+}
+
+.footer__contacts-mail::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 22px;
+	height: 18px;
+	margin-top: -9px;
+	background: url(../images/ic_mail.svg) 50% no-repeat;
+}
+
+.footer__socials{
+	width: 152px;
+	flex-shrink: 0;
+}
+
+.footer__socials .main-socials{
+	padding-left: 14px;
+}
+
+.footer__socials-desc{
+	margin-top: 14px;
+
+	font-size: 12px;
+	line-height: 1.33;
+	color: #F7EEE3;
 }
 
 
