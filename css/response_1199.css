@@ -1,6 +1,111 @@
 @media (max-width: 1199px)
 {
+	.header
+	{
+		padding-bottom: 25px;
+		font-size: 14px;
+	}
 
+	.header__top
+	{
+		gap: 0 10px;
+	}
+
+	.header__adres
+	{
+		padding-left: 20px;
+	}
+
+	.header__adres::after
+	{
+		top: 2px;
+		width: 13px;
+		height: 18px;
+	}
+
+	.header__time
+	{
+		padding-left: 26px;
+	}
+
+	.header__time::after
+	{
+		top: 2px;
+		width: 18px;
+		height: 18px;
+	}
+
+	.header__phone a
+	{
+		padding-left: 23px;
+	}
+
+	.header__phone a::after
+	{
+		width: 17px;
+		height: 18px;
+	}
+
+	.header .main-socials-link + .main-socials-link 
+	{
+		margin-left: 10px;
+	}
+
+	.header__logo
+	{
+		max-width: 190px;
+	}
+
+	.nav-menu__item + .nav-menu__item 
+	{
+		margin-left: 55px;
+	}
+
+
+	.first-section__img 
+	{
+		right: -180px;
+		padding-top: 50px;
+	}
+
+	.first-section__wrap
+	{
+		max-width: 480px;
+	}
+
+
+	.services__item
+	{
+		padding: 25px 20px;
+		min-height: 240px;
+	}
+
+	.services__name 
+	{
+		font-size: 22px;
+	}
+
+
+	.adventures__grid 
+	{
+		column-gap: 40px;
+	}
+
+	.adventures__info
+	{
+		width: calc(100% - 80px);
+	}
+
+	.adventures__name
+	{
+		font-size: 21px;
+	}
+
+	.adventures__icon
+	{
+		width: 60px;
+		height: 49px;
+	}
     /*------------
 		commit
 	------------*/

@@ -57,6 +57,27 @@
 	{
         font-size: 26px;
     }
+
+
+	.section-discount__btn
+	{
+		margin-top: 30px;
+	}
+
+	.section-discount__other
+	{
+		margin-top: 50px;
+	}
+
+	.section-discount__other-link
+	{
+		font-size: 40px;
+	}
+
+	.section-discount__note
+	{
+		font-size: 18px;
+	}
 	/*------------
 		commit
 	------------*/

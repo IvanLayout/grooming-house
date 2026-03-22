@@ -455,7 +455,7 @@ button
 	width: 15px;
 	height: 21px;
 
-	background: url(../images/ic_marker.svg) 50% no-repeat;
+	background: url(../images/ic_marker.svg) 50%/contain no-repeat;
 }
 
 .header__time
@@ -476,7 +476,7 @@ button
 	width: 21px;
 	height: 21px;
 
-	background: url(../images/ic_clock.svg) 50% no-repeat;
+	background: url(../images/ic_clock.svg) 50%/contain no-repeat;
 }
 
 .header__btn-entry
@@ -491,6 +491,11 @@ button
 	{
 		border-color: #F7EEE3;
 	}
+}
+
+.header__phone
+{
+	white-space: nowrap;
 }
 
 .header__phone a
@@ -514,7 +519,7 @@ button
 	width: 20px;
 	height: 21px;
 
-	background: url(../images/ic_tel.svg) 50% no-repeat;
+	background: url(../images/ic_tel.svg) 50%/contain no-repeat;
 }
 
 .header__socials-box{
@@ -2139,7 +2144,7 @@ html.with-fancybox{
 .adventures__name
 {
 	font-size: 25px;
-	line-height: auto;
+	line-height: normal;
 	font-weight: 500;
 }
 
@@ -2155,7 +2160,7 @@ html.with-fancybox{
 
 .section-discount
 {
-	padding: 75px 0 72px;
+	padding: 75px 0;
 	background: #706559;
 	text-align: center;
 }
