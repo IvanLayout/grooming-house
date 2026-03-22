@@ -10,7 +10,7 @@
 	}
 
 	.main-title {
-		font-size: 30px;
+		font-size: 24px;
 	}
 
 	.section-compare_pad{
@@ -52,5 +52,30 @@
 
 	.section-map {
 		height: 200px;
+	}
+
+
+	.footer{
+		padding: 30px 0;
+	}
+
+	.footer__logo{
+		display: none;
+	}
+
+	.footer__logo_mob{
+		display: block;
+		width: 94px;
+	}
+
+	.footer__contacts-flex{
+		flex-wrap: wrap;
+		gap: 28px 16px;
+		align-content: center;
+		align-items: center;
+	}
+
+	.footer__contacts-items{
+		width: 100%;
 	}
 }

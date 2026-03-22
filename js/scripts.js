@@ -113,6 +113,13 @@ $(() => {
 				nextEl: '.slider-button-next',
 				prevEl: '.slider-button-prev'
 			},
+			pagination: {
+				bulletActiveClass: 'slider-dot_active',
+				bulletClass: 'slider-dot',
+				clickableClass: 'slider-pagination-clickable',
+				el: '.slider-pagination',
+				clickable: true
+			},
 			breakpoints: {
 				'320': {
 					spaceBetween: 8,
