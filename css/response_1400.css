@@ -1,6 +1,14 @@
 @media (max-width: 1400px)
 {
-	
+	.first-section__wrap
+	{
+		max-width: 540px;
+	}
+
+	.adventures__grid
+	{
+		column-gap: 80px;
+	}
     /*------------
 		commit
 	------------*/
