@@ -36,22 +36,50 @@ $(() => {
 	$(':root').css('--scroll_width', widthScroll() + 'px')
 
 
-	$('body').on('click', '.header-catalog__open', function (e) {
+	// Моб. меню
+	$('body').on('click', '.mob-menu-link', function(e) {
 		e.preventDefault()
 
-		if ($(this).hasClass('_active') & !$(this).hasClass('_active-inner')) {
-			$(this).removeClass('_active')
-			$('.header-catalog__block').removeClass('_show')
-			$('.overlay-catalog').removeClass('_show')
-		} else if ($(this).hasClass('_active-inner')){
-			$(this).removeClass('_active-inner')
-			$('.header-catalog__block').removeClass('_show-inner')
-		} else {
-			$(this).addClass('_active')
-			$('.header-catalog__block').addClass('_show')
-			$('.overlay-catalog').addClass('_show')
-		}
+		$(this).addClass('_active')
+
+		$('.header').addClass('_show')
+
+		$('.overlay').fadeIn()
+
+		$('.close-menu').fadeIn()
+
+		$('body').addClass('_lock-add')
+    })
+
+    $('body').on('click', '.close-menu, .overlay', function(e) {
+		e.preventDefault()
+
+		$('.mob-menu-link').removeClass('_show')
+
+		$('.header').removeClass('_show')
+
+		$('.overlay').fadeOut()
+
+		$('.close-menu').fadeOut()
+
+		$('body').removeClass('_lock-add')
 	})
+
+
+	if( $(window).width() < 1024 ){
+		// Аккордион моб меню
+		$('body').on('click', '.header .nav-menu .nav-menu__item a.nav-menu__sub-link', function(e) {
+			e.preventDefault()
+
+			if( $(this).hasClass('_view') ) {
+				$(this).removeClass('_view')
+				$(this).next().slideUp(300)
+			} else {
+				$(this).addClass('_view')
+				$(this).next().slideDown(300)
+			}
+		})
+	}
 
 	
 

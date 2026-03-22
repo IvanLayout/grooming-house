@@ -676,10 +676,105 @@ button
 	text-align: center;
 }
 
+.header__mob-sign
+{
+	display: none;
+	margin-top: 13px;
+	width: 100%;
+}
+
+.header__mob-sign .btn-gold
+{
+	font-size: 14px;
+	line-height: 40px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
 
 .header-mob
 {
-	
+	display: none;
+
+	background: #706559;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header-mob .cont
+{
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+
+.header-mob__logo a
+{
+	display: block;
+	height: 58px;
+}
+
+.header-mob__logo img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.header-mob__socials-box
+{
+	margin-left: auto;
+}
+
+
+.close-menu 
+{
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 220px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.close-menu span 
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #706559;
+}
+
+.close-menu span:nth-child(1) 
+{
+    top: 1px;
+    transform: rotate(45deg);
+}
+
+.close-menu span:nth-child(2) 
+{
+    top: -1px;
+    transform: rotate(-45deg);
+}
+
+.overlay 
+{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #fff;
 }
 /*------------
     BTNS
