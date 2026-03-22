@@ -4,5 +4,53 @@
     /*------------
 		commit
 	------------*/
-	
+	.cont_slider{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.main-title {
+		font-size: 30px;
+	}
+
+	.section-compare_pad{
+		padding: 50px 0;
+	}
+
+	.section-compare__grid{
+		margin-top: 26px;
+		gap: 16px 0;
+		margin-left: -16px;
+	}
+
+	.section-compare__item {
+		width: calc(100% / 4 - 16px);
+		border-radius: 10px;
+		margin-left: 16px;
+	}
+
+
+	.main-gallery_pad{
+		padding-bottom: 50px;
+	}
+
+	.main-gallery__slider{
+		margin-top: 26px;
+	}
+
+	.main-gallery__flex{
+		gap: 16px;
+	}
+
+	.main-gallery__img{
+		border-radius: 10px;
+	}
+
+	.main-gallery__flex .main-gallery__img {
+		width: calc(50% - 8px);
+	}
+
+	.section-map {
+		height: 200px;
+	}
 }

@@ -4,5 +4,7 @@
     /*------------
 		commit
 	------------*/
-	
+	.footer__contacts {
+		width: 440px;
+	}
 }

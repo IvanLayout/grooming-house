@@ -4,4 +4,31 @@
 	/*------------
 		commit
 	------------*/
+	.main-title{
+		font-size: 40px;
+	}
+
+	.slider-button-prev,
+	.slider-button-next{
+		width: 28px;
+		height: 28px;
+		margin-top: -15px;
+	}
+
+	.slider-button-prev svg,
+	.slider-button-next svg {
+		width: 9px;
+		height: 12px;
+		stroke-width: 2px;
+	}
+
+	.main-gallery__slider{
+		padding-left: 47px;
+		padding-right: 47px;
+	}
+
+
+	.section-map{
+		height: 300px;
+	}
 }

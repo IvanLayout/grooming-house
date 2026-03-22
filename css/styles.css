@@ -1716,6 +1716,7 @@ html.with-fancybox{
 
     width: 27px;
     height: 34px;
+	stroke-width: 5px;
 
     fill: none;
     stroke: currentColor;
@@ -2292,7 +2293,7 @@ html.with-fancybox{
 
 .main-gallery__flex .main-gallery__img{
 	width: calc(50% - 10px);
-	min-width: none;
+	min-height: 1px;
 }
 
 .section-map{
@@ -2453,7 +2454,24 @@ html.with-fancybox{
     /*------------
 		commit
 	------------*/
-	
+	.slider-button-prev,
+	.slider-button-next{
+		width: 50px;
+		height: 50px;
+		margin-top: -25px;
+	}
+
+	.slider-button-prev svg,
+	.slider-button-next svg {
+		width: 18px;
+		height: 24px;
+		stroke-width: 3px;
+	}
+
+	.main-gallery__slider{
+		padding-left: 80px;
+		padding-right: 80px;
+	}
 }
 
 
@@ -2463,5 +2481,11 @@ html.with-fancybox{
     /*------------
 		commit
 	------------*/
-	
+	.section-compare__grid{
+		margin-top: 40px;
+	}
+
+	.main-gallery__slider{
+		margin-top: 40px;
+	}
 }
