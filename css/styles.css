@@ -280,9 +280,13 @@ button
     position: relative;
 
     width: 100%;
-    max-width: 1550px;
+    max-width: 1578px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 29px;
+}
+
+.cont_slider{
+    max-width: 1846px;
 }
 
 
@@ -1659,7 +1663,7 @@ html.with-fancybox{
     z-index: 10;
     top: 50%;
 
-    color: #000;
+    color: #fff;
 
     display: flex;
     overflow: hidden;
@@ -1668,23 +1672,17 @@ html.with-fancybox{
     align-items: center;
     flex-wrap: wrap;
 
-    width: 32px;
-    height: 32px;
-    margin-top: -16px;
+    width: 74px;
+    height: 74px;
+    margin-top: -37px;
 
     cursor: pointer;
 
     border: none;
     border-radius: 50%;
-    background: #FFF;
+    background: #706559;
 
     transition: color .2s linear, background .2s linear;
-}
-
-.main-slider .slider-button-prev,
-.main-slider .slider-button-next
-{
-	margin-top: -26px;
 }
 
 
@@ -1695,8 +1693,8 @@ html.with-fancybox{
     {
         z-index: 11;
 
-        background-color: #F52121;
-		color: #fff;
+        background-color: #E5C979;
+		color: #464549;
         box-shadow: none;
     }
 }
@@ -1706,8 +1704,8 @@ html.with-fancybox{
 {
     display: block;
 
-    width: 8px;
-    height: 14px;
+    width: 27px;
+    height: 34px;
 
     fill: none;
     stroke: currentColor;
@@ -1715,14 +1713,14 @@ html.with-fancybox{
 
 .slider-button-prev
 {
-    left: -18px;
+    left: 0;
 
     transform: rotate(180deg);
 }
 
 .slider-button-next
 {
-    right: -18px;
+    right: 0;
 }
 
 .slider-button-prev.swiper-button-disabled,
@@ -2250,6 +2248,8 @@ html.with-fancybox{
 
 .main-gallery__slider{
 	margin-top: 84px;
+	padding-left: 134px;
+	padding-right: 134px;
 }
 
 .main-gallery .swiper-slide{
@@ -2257,6 +2257,7 @@ html.with-fancybox{
 }
 
 .main-gallery__flex{
+	min-height: 100%;
 	gap: 20px;
 	align-items: stretch;
 	align-content: stretch;
@@ -2269,7 +2270,7 @@ html.with-fancybox{
 	overflow: hidden;
 	border-radius: 20px;
 	text-decoration: none;
-	aspect-ratio: 1/1.2;
+	aspect-ratio: 1/.9;
 }
 
 .main-gallery__img img{
@@ -2281,6 +2282,7 @@ html.with-fancybox{
 
 .main-gallery__flex .main-gallery__img{
 	width: calc(50% - 10px);
+	min-width: none;
 }
 
 .section-map{
