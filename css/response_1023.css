@@ -5,8 +5,8 @@
 		commit
 	------------*/
 	.cont_slider{
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 13px;
+		padding-right: 13px;
 	}
 
 	.main-title {
@@ -52,6 +52,59 @@
 
 	.section-map {
 		height: 200px;
+	}
+
+
+	.section-top{
+		padding: 50px 0;
+	}
+
+	
+	.salon-manager{
+		padding: 50px 0;
+	}
+
+	.salon-manager__cols{
+		gap: 20px;
+	}
+
+	.salon-manager__photo{
+		border-radius: 10px;
+	}
+
+	.salon-manager__colr {
+		width: calc(45% - 20px);
+	}
+
+
+	body{
+		font-size: 14px;
+		line-height: 1.5;
+	}
+
+
+	.text-block p{
+		margin-bottom: 20px;
+	}
+
+
+	.section-divider{
+		height: auto;
+		aspect-ratio: 1/.147;
+	}
+
+
+	.gallery-salon{
+		padding: 50px 0;
+	}
+
+	.gallery-salon__photo{
+		border-radius: 5px;
+	}
+
+
+	.gallery-salon__slider{
+		margin-top: 26px;
 	}
 
 

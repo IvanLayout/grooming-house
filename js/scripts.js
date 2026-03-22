@@ -1,14 +1,6 @@
 // Ширина окна для ресайза
 WW = window.innerWidth || document.clientWidth || document.querySelector('body')[0].clientWidth
 
-// Моб. версия
-fakeResize = false
-fakeResize2 = true
-
-if (document.body.clientWidth < 375) {
-	document.getElementsByTagName('meta')['viewport'].content = 'width=375, user-scalable=no'
-}
-
 $(() => {
 
 	if ($('.main-slider').length) {
@@ -96,8 +88,8 @@ $(() => {
 	if ($('.main-gallery__slider').length) {
 		new Swiper(".main-gallery__slider", {
 			loop: false,
-			spaceBetween: 8,
-			slidesPerView: 'auto',
+			spaceBetween: 10,
+			slidesPerView: 1,
 			watchSlidesProgress: true,
 			watchOverflow: true,
 			preloadImages: false,
@@ -122,12 +114,12 @@ $(() => {
 			},
 			breakpoints: {
 				'320': {
-					spaceBetween: 8,
-					slidesPerView: 'auto',
+					spaceBetween: 10,
+					slidesPerView: 1,
 				},
 				'480': {
-					spaceBetween: 8,
-					slidesPerView: 'auto',
+					spaceBetween: 10,
+					slidesPerView: 1,
 				},
 				'768': {
 					spaceBetween: 16,
@@ -146,6 +138,59 @@ $(() => {
 		})
 	}
 
+
+	if ($('.gallery-salon__slider').length) {
+		new Swiper(".gallery-salon__slider", {
+			loop: false,
+			spaceBetween: 10,
+			slidesPerView: 1,
+			watchSlidesProgress: true,
+			watchOverflow: true,
+			preloadImages: false,
+			lazy: {
+				loadPrevNext: true,
+				elementClass: 'lazyload',
+				enabled: true,
+				loadedClass: 'loaded',
+				checkInView: true,
+				loadOnTransitionStart: true
+			},
+			navigation: {
+				nextEl: '.slider-button-next',
+				prevEl: '.slider-button-prev'
+			},
+			pagination: {
+				bulletActiveClass: 'slider-dot_active',
+				bulletClass: 'slider-dot',
+				clickableClass: 'slider-pagination-clickable',
+				el: '.slider-pagination',
+				clickable: true
+			},
+			breakpoints: {
+				'320': {
+					spaceBetween: 10,
+					slidesPerView: 1,
+				},
+				'480': {
+					spaceBetween: 10,
+					slidesPerView: 1,
+				},
+				'768': {
+					spaceBetween: 16,
+					slidesPerView: 2,
+				},
+				'1024': {
+					spaceBetween: 20,
+					slidesPerView: 3,
+				}
+			},
+			on: {
+				init: function (swiper) {
+					$(swiper.el).find('.swiper-wrapper').wrap('<div class="swiper-overflow"></div>')
+				}
+			}
+		})
+	}
 });
 
 
@@ -162,23 +207,6 @@ $(window).on('resize', () => {
 	if (typeof WW !== 'undefined' && WW != windowW) {
 		// Перезапись ширины окна
 		WW = window.innerWidth || document.clientWidth || document.querySelector('body')[0].clientWidth
-
-		// Моб. версия
-		if (!fakeResize) {
-			fakeResize = true
-			fakeResize2 = false
-
-			document.getElementsByTagName('meta')['viewport'].content = 'width=device-width, initial-scale=1, maximum-scale=1'
-		}
-
-		if (!fakeResize2) {
-			fakeResize2 = true
-
-			if (windowW < 375) document.getElementsByTagName('meta')['viewport'].content = 'width=375, user-scalable=no'
-		} else {
-			fakeResize = false
-			fakeResize2 = true
-		}
 	}
 
 });
