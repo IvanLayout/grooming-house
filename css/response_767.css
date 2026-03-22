@@ -53,11 +53,13 @@
 
 	.salon-manager__coll{
 		width: 100%;
+		max-width: none;
 		order: 2;
 	}
 
 	.salon-manager__colr {
 		width: 76.34%;
+		max-width: none;
 	}
 
 	.salon-manager__photo{
@@ -72,6 +74,40 @@
 
 	.gallery-salon__photo{
 		border-radius: 5px;
+	}
+
+
+	.about{
+		padding: 0;
+	}
+
+	.about .cont{
+		padding: 0;
+	}
+
+	.about__colr{
+		position: relative;
+		width: 100%;
+		max-width: none;
+		padding: 25px 0;
+	}
+
+	.about__img{
+		width: 62.5%;
+		border-radius: 5px;
+		margin: 0 auto;
+	}
+
+	.about__coll{
+		width: 100%;
+		max-width: none;
+		order: 2;
+		padding: 14px 29px 17px;
+    	background: url(../images/bg_1.jpg) top center / 100% auto repeat-y;
+	}
+
+	.about__bg img{
+		object-position: 0 0;
 	}
 
 

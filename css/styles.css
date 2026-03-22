@@ -722,10 +722,7 @@ button
 ------------*/
 .breadcrumbs
 {
-	padding: 35px 0 27px;
-    font-weight: 400;
-	font-size: 18px;
-	line-height: 1.56;
+	padding: 32px 0;
 	color: #D8B75A;
 }
 
@@ -2413,6 +2410,85 @@ html.with-fancybox{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+
+.about{
+	position: relative;
+	padding: 100px 0;
+}
+
+.about .cont{
+	position: static;
+}
+
+.about__bg
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+}
+
+.about__bg::after
+{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	background: rgba(255, 255, 255, .6);
+	z-index: 1;
+}
+
+.about__bg img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.about__cols{
+	justify-content: space-between;
+}
+
+.about__coll{
+	width: calc(46% - 30px);
+	max-width: 648px;
+	align-self: center;
+	position: relative;
+	z-index: 2;
+}
+
+.about__colr{
+	width: 54%;
+	max-width: 750px;
+}
+
+.about__img{
+	display: block;
+	width: 100%;
+	object-fit: cover;
+	aspect-ratio: 1/.8;
+	border-radius: 20px;
+	position: relative;
+	z-index: 2;
 }
 
 
