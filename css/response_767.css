@@ -111,6 +111,105 @@
 	}
 
 
+	.section-faq{
+		padding: 21px 0;
+	}
+
+
+	.section-faq__item + .section-faq__item{
+		margin-top: 16px;
+	}
+
+
+	.text-block h1,
+	.text-block .title
+	{
+		font-size: 18px;
+	}
+
+	.text-block h2
+	{
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+
+	.small-title{
+		font-size: 15px;
+	}
+
+
+	.section-form__wrap{
+		padding-right: 0;
+		min-height: 1px;
+		padding-bottom: 0;
+	}
+
+	.form__line{
+		margin-bottom: 15px;
+	}
+
+	.form .form__input{
+		font-size: 12px;
+		padding-left: 12px;
+		padding-right: 12px;
+		height: 30px;
+	}
+
+	.form .form__textarea{
+		font-size: 12px;
+		padding: 9px 12px;
+		height: 90px;
+	}
+
+	.form__bot{
+		position: relative;
+		padding-top: 35px;
+		padding-bottom: 40px;
+	}
+
+	.form__bot .form__submit{
+		text-align: left;
+	}
+
+	.form__img{
+		width: 116px;
+		height: 104px;
+		right: 22px;
+	}
+
+
+	.our-visiters_pad{
+		padding-bottom: 25px;
+	}
+
+	.our-visiters_marg{
+		margin-top: -1px;
+	}
+
+	.our-visiters__photo {
+		width: calc(100% / 3 - 16px);
+	}
+
+	.our-visiters__photo {
+		border-radius: 5px;
+	}
+
+
+	.error-page{
+		padding: 25px 0;
+	}
+
+	.error-page__title{
+		font-size: 60px;
+	}
+
+	.error-page__desc{
+		font-size: 12px;
+		margin-top: 0;
+	}
+
+
 	.footer{
 		padding-top: 14px;
 	}

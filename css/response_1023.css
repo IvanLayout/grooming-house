@@ -133,6 +133,85 @@
 	}
 
 
+	.section-faq{
+		padding: 50px 0;
+	}
+
+
+	.section-faq__item + .section-faq__item{
+		margin-top: 20px;
+	}
+
+
+	.text-block h1,
+	.text-block .title
+	{
+		font-size: 24px;
+	}
+
+	.text-block h2
+	{
+		font-size: 18px;
+		margin-bottom: 12px;
+	}
+
+	.small-title{
+		font-size: 18px;
+	}
+
+
+	.form__line{
+		margin-bottom: 20px;
+	}
+
+	.form__flex .form__line{
+		width: 100%;
+		max-width: none;
+	}
+
+
+	.our-visiters_pad{
+		padding-bottom: 50px;
+	}
+
+	.our-visiters__grid {
+		gap: 16px 0;
+		margin-left: -16px;
+	}
+
+	.our-visiters__photo {
+		margin-left: 16px;
+		width: calc(100% / 4 - 16px);
+		border-radius: 10px;
+	}
+
+	.our-visiters_marg{
+		margin-top: -24px;
+	}
+
+
+	.error-page{
+		padding: 50px 0;
+	}
+
+	.error-page__box{
+		max-width: 520px;
+		width: 84%;
+	}
+
+	.error-page__title{
+		font-size: 140px;
+	}
+
+	.error-page__desc{
+		font-size: 18px;
+	}
+
+	.error-page__img{
+		display: none;
+	}
+
+
 	.footer{
 		padding: 30px 0;
 	}

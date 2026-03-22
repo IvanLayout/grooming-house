@@ -108,4 +108,19 @@
 	.section-map{
 		height: 300px;
 	}
+
+	.text-block h1,
+	.text-block .title
+	{
+		font-size: 40px;
+	}
+
+	.text-block h2
+	{
+		font-size: 28px;
+	}
+
+	.small-title{
+		font-size: 28px;
+	}
 }

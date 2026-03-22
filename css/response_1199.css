@@ -109,6 +109,18 @@
     /*------------
 		commit
 	------------*/
+	.section-form__wrap{
+		padding-right: 350px;
+		min-height: 400px;
+	}
+
+	.form__img {
+		right: -50px;
+		width: 400px;
+		height: 356px;
+	}
+
+
 	.footer__contacts {
 		width: 440px;
 	}

@@ -103,6 +103,16 @@ $(() => {
 			autoStart: false,
 		}
 	})
+
+
+	// Маска ввода
+	$('input[type=tel]').each(function(){
+		let datamask = $(this).data('mask');
+
+		$(this).inputmask(`${datamask}`, {
+			showMaskOnHover: false
+		})
+	})
 })
 
 
