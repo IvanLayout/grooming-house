@@ -2475,6 +2475,14 @@ html.with-fancybox{
 	object-fit: cover;
 }
 
+.stages__abc1,
+.stages__abc2,
+.stages__abc3,
+.stages__abc4
+{
+	display: none;
+}
+
 .stages .cont{
 	z-index: 1;
 }
