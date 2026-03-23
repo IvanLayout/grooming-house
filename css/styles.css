@@ -1891,6 +1891,69 @@ html.with-fancybox{
     service-prices
 ------------*/
 
+.service-prices
+{
+	position: relative;
+}
+
+.service-prices__abc1
+{
+	position: absolute;
+	top: 336px;
+    right: -78px;
+
+	min-width: 80px;
+
+	display: block;
+	z-index: 1;
+}
+
+.service-prices__abc2
+{
+	position: absolute;
+	top: -296px;
+    right: -22px;
+
+	min-width: 30px;
+
+	display: block;
+	z-index: 1;
+}
+
+.service-prices__abc3
+{
+	position: absolute;
+	top: 342px;
+    right: -301px;
+
+	min-width: 310px;
+
+	display: block;
+	z-index: 1;
+}
+
+.service-prices__abc4
+{
+	position: absolute;
+	top: -24px;
+    right: 133px;
+
+	display: block;
+	z-index: 1;
+}
+
+.service-prices__abc5
+{
+	position: absolute;
+	top: 107px;
+    right: -71px;
+
+	min-width: 80px;
+
+	display: block;
+	z-index: 1;
+}
+
 .service-prices__pad
 {
 	padding-top: 85px;
