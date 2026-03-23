@@ -1949,7 +1949,7 @@ html.with-fancybox{
 .service-table_name-fixed th:first-child,
 .service-table_name-fixed td:first-child
 {
-	width: 365px;
+	width: 400px;
 	table-layout: fixed;
 }
 
