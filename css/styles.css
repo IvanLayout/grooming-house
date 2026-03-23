@@ -2532,6 +2532,11 @@ html.with-fancybox{
 	max-width: 648px;
 }
 
+.about-service__coll-width{
+	max-width: none;
+	width: 42.11%;
+}
+
 .about-service__btn{
 	text-align: center;
 	margin-top: 42px;
@@ -2551,6 +2556,14 @@ html.with-fancybox{
 	display: none;
 }
 
+.about-service__colr_end{
+	align-self: flex-end;
+	max-width: none;
+	width: calc(57.89% + 155px);
+	margin-bottom: -86px;
+	margin-right: -155px;
+}
+
 .about-service__img{
 	display: block;
 	width: 100%;
@@ -2558,6 +2571,11 @@ html.with-fancybox{
 	border-radius: 20px;
 	position: relative;
 	z-index: 2;
+}
+
+.about-service__dog{
+	display: block;
+	max-width: 100%;
 }
 
 

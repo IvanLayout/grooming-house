@@ -158,6 +158,29 @@
 	}
 
 
+	.about-service_nopad{
+		padding: 50px 0;
+	}
+
+	.about-service__coll-width{
+		width: 100%;
+		order: 2;
+		margin-top: 30px;
+	}
+
+	.about-service__colr_end{
+		width: 100%;
+		max-width: none;
+		margin: 0;
+	}
+
+	.about-service__dog{
+		width: 84%;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+
 	.footer__contacts {
 		width: 440px;
 	}
