@@ -1831,7 +1831,7 @@ html.with-fancybox{
 
 .haircut-prices__items
 {
-	margin: 3px 0 0 50px;
+	margin: 3px 0 0 -50px;
 	justify-content: space-between;
 }
 
@@ -1921,7 +1921,7 @@ html.with-fancybox{
 	text-align: left;
 	vertical-align: top;
 	padding-bottom: 30px;
-	padding-left: 125px;
+	padding-left: 30px;
 }
 
 .service-table th:first-child
@@ -1936,7 +1936,7 @@ html.with-fancybox{
 	line-height: normal;
 	vertical-align: top;
 
-	padding: 30px 0 30px 125px;
+	padding: 30px 0 30px 30px;
 	border-top: 1.5px solid #846948;
 }
 
@@ -1967,6 +1967,12 @@ html.with-fancybox{
 .service-table td div + div
 {
 	margin-top: 25px;
+}
+
+.service-table__w
+{
+	width: 310px;
+	table-layout: fixed;
 }
 
 .service-prices__note
@@ -2023,6 +2029,8 @@ html.with-fancybox{
 
 	background: url(../images/ic_star_note.svg) 50%/contain no-repeat;
 }
+
+
 /*------------
     commit
 ------------*/
