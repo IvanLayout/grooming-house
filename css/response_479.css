@@ -1,6 +1,209 @@
 @media (max-width: 479px)
 {
-	
+	.btn-gold
+	{
+		line-height: 28px;
+		font-size: 12px;
+	}
+
+	.header
+	{
+		font-size: 12px;
+		width: 220px;
+		left: -220px;
+	}
+
+	.close-menu 
+	{
+		left: 220px;
+	}
+
+	.header-mob .main-socials-link
+	{
+		width: 15px;
+		height: 15px;
+	}
+
+	.header-mob .main-socials-link + .main-socials-link 
+	{
+		margin-left: 10px;
+	}
+
+	.header-mob .main-socials-link._socials-prohibited:after
+	{
+		width: 6px;
+		height: 6px;
+		left: -10px;
+	}
+
+	.header__phone a 
+	{
+		padding-left: 18px;
+	}
+
+	.header__phone a::after 
+	{
+		width: 11px;
+		height: 12px;
+	}
+
+	.header__time 
+	{
+		padding-left: 18px;
+		margin-top: 21px;
+	}
+
+	.header__time::after 
+	{
+		width: 12px;
+		height: 12px;
+	}
+
+	.header__adres
+	{
+		margin-top: 19px;
+		padding-left: 18px;
+		line-height: normal;
+	}
+
+	.header__adres::after 
+	{
+		width: 10px;
+		height: 14px;
+	}
+
+	.br-mob
+	{
+		display: block;
+	}
+
+
+	.header__socials-box
+	{
+		padding-left: 0;
+		margin-top: 47px;
+	}
+
+	.header__socials-box .main-socials
+	{
+		margin-left: -15px;
+	}
+
+	.header__socials-box .main-socials-link + .main-socials-link
+	{
+		margin-left: 15px;
+	}
+
+	.main-socials-link._mob-none
+	{
+		display: none;
+	}
+
+	.main-socials-link._mob-show
+	{
+		display: flex;
+	}
+
+
+	.header__mob-sign
+	{
+		margin-top: 11px;
+	}
+
+	.header__mob-sign .btn-gold 
+	{
+		font-size: 12px;
+		line-height: 28px;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+
+
+	.mob-menu-link
+	{
+		margin-left: 0;
+	}
+
+
+	.header__wrap
+	{
+		margin-top: 11px;
+	}
+
+	.header__info
+	{
+		width: 130px;
+	}
+
+	.nav-menu__item
+	{
+		font-size: 12px;
+	}
+
+	.nav-menu__sub-menu
+	{
+		font-size: 12px;
+	}
+
+	.nav-menu__item-mob .nav-menu__sub-menu div + div 
+	{
+		margin-top: 6px;
+	}
+
+	.nav-menu__item + .nav-menu__item 
+	{
+		margin-top: 6px;
+	}
+
+	.nav-menu__item-mob .nav-menu__sub-menu a
+	{
+		font-size: 12px;
+	}
+
+
+	.services__grid
+	{
+		display: block;
+		margin-top: 0;
+		margin-left: 0;
+		padding: 0 30px;
+	}
+
+	.services__item 
+	{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 20px;
+		min-height: 146px;
+		border-radius: 5px;
+		padding-top: 10px;
+	}
+
+	.services__name
+	{
+		font-size: 15px;
+		font-weight: 400;
+	}
+
+	.services__go-service
+	{
+		text-align: center;
+	}
+
+	.services__go-service span 
+	{
+		font-size: 12px;
+		line-height: 28px;
+		padding: 0px 14px;
+	}
+
+
+
+
+	.section-discount__other-link
+	{
+		font-size: 16px;
+	}
     /*------------
 		commit
 	------------*/

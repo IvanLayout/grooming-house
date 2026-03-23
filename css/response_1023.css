@@ -5,14 +5,14 @@
 		position: fixed;
 		z-index: 101;
 		top: 0;
-		left: -220px;
+		left: -270px;
 		display: flex;
 		justify-content: flex-start;
 		align-items: flex-start;
 		align-content: flex-start;
 		flex-wrap: wrap;
 		overflow-y: auto;
-		width: 220px;
+		width: 270px;
 		height: 100%;
 		margin: 0;
 		padding: 0;
@@ -126,7 +126,7 @@
 	.header__wrap
 	{
 		display: block;
-		padding-bottom: 45px;
+		padding-bottom: 44px;
 		margin-top: 15px;
 	}
 
@@ -237,6 +237,150 @@
 	{
 		display: block;
 		order: 7;
+	}
+
+
+	.first-section__wrap
+	{
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+		max-width: 60%;
+	}
+
+	.first-section__info 
+	{
+		max-width: 380px;
+	}
+
+	.first-section__title 
+	{
+		font-size: 32px;
+	}
+
+	.first-section__sub-title 
+	{
+		font-size: 16px;
+		margin-top: 20px;
+	}
+
+	.first-section__btn .btn-gold 
+	{
+		line-height: 47px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.first-section__img 
+	{
+		right: -120px;
+		padding-top: 50px;
+	}
+
+
+	.btn-gold
+	{
+		font-size: 16px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+
+	.services
+	{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.services__grid 
+	{
+        margin-top: 8px;
+		margin-left: -16px;
+    }
+
+	.services__item 
+	{
+		padding: 15px;
+		min-height: 166px;
+
+		width: calc(100% / 3 - 16px);
+		margin-top: 16px;
+		margin-left: 16px;
+		border-radius: 10px;
+	}
+
+	.services__name 
+	{
+		font-size: 16px;
+	}
+
+	.services__go-service span 
+	{
+		font-size: 14px;
+		line-height: 28px;
+		padding: 0 15px;
+	}
+
+
+	.adventures
+	{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.adventures__grid 
+	{
+		column-gap: 16px;
+	}
+
+	.adventures__item + .adventures__item 
+	{
+		margin-top: 40px;
+	}
+
+	.adventures__item
+	{
+		text-align: center;
+	}
+
+	.adventures__icon
+	{
+		margin: 0 auto;
+	}
+
+	.adventures__info
+	{
+		width: 100%;
+		margin-top: 12px;
+	}
+
+	.adventures__name 
+	{
+		font-size: 18px;
+	}
+
+
+	.section-discount
+	{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.section-discount__other-link
+	{
+		font-size: 24px;
+		padding-right: 40px;
+	}
+
+	.section-discount__other-link::after
+	{
+		width: 30px;
+		height: 31px;
+	}
+
+	.section-discount__note 
+	{
+		font-size: 14px;
 	}
     /*------------
 		commit
@@ -363,225 +507,6 @@
 
 	.about__img{
 		border-radius: 10px;
-	}
-
-
-	.section-faq{
-		padding: 50px 0;
-	}
-
-
-	.section-faq__item + .section-faq__item{
-		margin-top: 20px;
-	}
-
-
-	.text-block h1,
-	.text-block .title
-	{
-		font-size: 24px;
-	}
-
-	.text-block h2
-	{
-		font-size: 18px;
-		margin-bottom: 12px;
-	}
-
-	.small-title{
-		font-size: 18px;
-	}
-
-
-	.form__line{
-		margin-bottom: 20px;
-	}
-
-	.form__flex .form__line{
-		width: 100%;
-		max-width: none;
-	}
-
-
-	.our-visiters_pad{
-		padding-bottom: 50px;
-	}
-
-	.our-visiters__grid {
-		gap: 16px 0;
-		margin-left: -16px;
-	}
-
-	.our-visiters__photo {
-		margin-left: 16px;
-		width: calc(100% / 4 - 16px);
-		border-radius: 10px;
-	}
-
-	.our-visiters_marg{
-		margin-top: -24px;
-	}
-
-
-	.error-page{
-		padding: 50px 0;
-	}
-
-	.error-page__box{
-		max-width: 520px;
-		width: 76.4%;
-		border-radius: 10px;
-	}
-
-	.error-page__title{
-		font-size: 140px;
-	}
-
-	.error-page__desc{
-		font-size: 18px;
-	}
-
-	.error-page__img{
-		display: none;
-	}
-
-
-	.contacts_pad{
-		padding-bottom: 50px;
-	}
-
-	.contacts_marg{
-		margin-top: -30px;
-	}
-
-	.contacts__cols{
-		gap: 20px;
-	}
-
-	.contacts__colr {
-		width: calc(45% - 20px);
-	}
-
-	.contacts__img{
-		border-radius: 10px;
-	}
-
-	.contacts__item + .contacts__item{
-		margin-top: 20px;
-	}
-
-	.contacts__title{
-		font-size: 18px;
-		font-weight: 500;
-		line-height: normal;
-	}
-
-	.contacts__text{
-		font-size: 14px;
-		margin-top: 6px;
-	}
-
-	.contacts .main-socials{
-		margin-top: 20px;
-	}
-
-	.contacts .main-socials-link{
-		width: 24px;
-		height: 24px;
-	}
-
-	.contacts .main-socials-link + .main-socials-link{
-		margin-left: 20px;
-	}
-
-	.contacts .main-socials-link._socials-prohibited:after {
-		width: 10px;
-		height: 10px;
-		left: -10px;
-		top: -5px;
-	}
-
-
-	.about-service{
-		padding: 50px 0;
-	}
-
-	.about-service__img{
-		border-radius: 10px;
-	}
-
-	.about-service__colr {
-		width: calc(45% - 20px);
-	}
-
-	.about-service__btn{
-		margin-top: 30px;
-	}
-
-
-	.stages_pad{
-		padding: 50px 0;
-	}
-
-	.stages__items{
-		margin-top: 26px;
-
-		row-gap: 20px;
-		border-radius: 10px;
-	}
-
-	.stages__item{
-		width: calc(50% - 8px);
-	}
-
-	.stages__number {
-		min-width: 45px;
-		font-size: 60px;
-	}
-
-	.stages__title{
-		font-size: 18px;
-	}
-
-	.stages__desc{
-		margin-top: 20px;
-	}
-
-
-	.gallery-photo_pad{
-		padding: 50px 0;
-	}
-
-
-	.gallery-photo__slider{
-		margin-top: 26px;
-	}
-
-
-	.price-list_pad{
-		padding: 50px 0;
-	}
-
-
-	.price-list__grid {
-        margin-top: 26px;
-        row-gap: 20px;
-    }
-
-	.price-list__grid .price-list__line {
-		width: calc(100% / 2 - 30px);
-	}
-
-	.price-list__title{
-		font-size: 18px;
-	}
-
-	.price-list__table{
-		max-width: none;
-	}
-
-	.price-list__table td{
-		padding-top: 12px;
 	}
 
 

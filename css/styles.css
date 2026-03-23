@@ -458,6 +458,11 @@ button
 	background: url(../images/ic_marker.svg) 50%/contain no-repeat;
 }
 
+.br-mob
+{
+	display: none;
+}
+
 .header__time
 {
 	position: relative;
@@ -572,7 +577,7 @@ button
 	width: 11px;
 	height: 11px;
 
-	background: url(../images/ic_star_soc.svg) 50% no-repeat;
+	background: url(../images/ic_star_soc.svg) 50%/contain no-repeat;
 }
 
 @media (any-hover: hover)
@@ -583,6 +588,10 @@ button
 	}
 }
 
+.main-socials-link._mob-show
+{
+	display: none;
+}
 
 .nav-menu
 {
@@ -735,7 +744,7 @@ button
     position: fixed;
     z-index: 101;
     top: 0;
-    left: 220px;
+    left: 270px;
     display: none;
     width: 50px;
     height: 50px;
@@ -1644,6 +1653,7 @@ html.with-fancybox{
 	background: #fff;
 	border-radius: 20px;
 	padding: 45px 40px 54px;
+	overflow: hidden;
 
 	color: #464549;
 	box-shadow: 2px 2px 6px rgba(0, 0, 0, .15);
@@ -1816,7 +1826,7 @@ html.with-fancybox{
 	width: 50px;
 	height: 51px;
 
-	background: url(../images/ic_gift.svg) 50% no-repeat;
+	background: url(../images/ic_gift.svg) 50%/contain no-repeat;
 }
 
 .section-discount__other-link span

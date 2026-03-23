@@ -1,6 +1,104 @@
 @media (max-width: 767px)
 {
 	
+	.first-section__wrap
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.first-section__title 
+	{
+		font-size: 22px;
+	}
+
+	.first-section__sub-title 
+	{
+		font-size: 14px;
+		margin-top: 10px;
+	}
+
+	.first-section__btn .btn-gold 
+	{
+		line-height: 32px;
+		padding-left: 13px;
+		padding-right: 13px;
+	}
+
+
+	.btn-gold
+	{
+		line-height: 32px;
+		padding-left: 13px;
+		padding-right: 13px;
+		font-size: 14px;
+	}
+
+
+	.services
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.services__item
+	{
+		width: calc(100% / 2 - 16px);
+		min-height: 150px;
+	}
+
+
+
+	.adventures
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.adventures__icon 
+	{
+		width: 43px;
+		height: 35px;
+	}
+
+	.adventures__name 
+	{
+		font-size: 16px;
+	}
+
+
+	.section-discount
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.section-discount__btn
+	{
+		margin-top: 24px;
+	}
+
+	.section-discount__other
+	{
+		margin-top: 24px;
+	}
+
+	.section-discount__other-link
+	{
+		font-size: 18px;
+		padding-right: 0;
+	}
+
+	.section-discount__other-link::after
+	{
+		display: none;
+	}
+
+	.section-discount__note 
+	{
+		font-size: 12px;
+		margin-top: 14px;
+	}
     /*------------
 		commit
 	------------*/
