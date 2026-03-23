@@ -1583,6 +1583,15 @@ html.with-fancybox{
 {
 	position: relative;
 	padding: 60px 0 50px;
+	overflow: hidden;
+}
+
+.services__abc1,
+.services__abc2,
+.services__abc3,
+.services__abc4
+{
+	display: none;
 }
 
 .services__bg
