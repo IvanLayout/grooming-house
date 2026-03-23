@@ -1896,6 +1896,11 @@ html.with-fancybox{
 	padding-top: 85px;
 }
 
+.service-prices__pad-bot
+{
+	padding-bottom: 100px;
+}
+
 .service-table_marg
 {
 	margin-top: 80px;
@@ -1916,6 +1921,12 @@ html.with-fancybox{
 	text-align: left;
 	vertical-align: top;
 	padding-bottom: 30px;
+	padding-left: 125px;
+}
+
+.service-table th:first-child
+{
+	padding-left: 0;
 }
 
 .service-table td
@@ -1925,18 +1936,92 @@ html.with-fancybox{
 	line-height: normal;
 	vertical-align: top;
 
-	padding: 25px 0;
+	padding: 30px 0 30px 125px;
 	border-top: 1.5px solid #846948;
 }
 
 .service-table td:first-child
 {
 	font-size: 25px;
+	padding-left: 0;
+}
+
+.service-table_name-fixed th:first-child,
+.service-table_name-fixed td:first-child
+{
+	width: 365px;
+	table-layout: fixed;
+}
+
+.service-table tr:last-child td
+{
+	border-bottom: 1.5px solid #846948;
+}
+
+.service-table td span
+{
+	font-size: 20px;
+	display: block;
 }
 
 .service-table td div + div
 {
-	margin-top: 15px;
+	margin-top: 25px;
+}
+
+.service-prices__note
+{
+	margin-top: 30px;
+	font-size: 25px;
+	line-height: normal;
+	font-weight: 500;
+}
+
+.service-prices__item
+{
+	position: relative;
+	padding-left: 30px;
+
+	font-size: 25px;
+	line-height: normal;
+	font-weight: 500;
+
+	margin-top: 30px;
+}
+
+.service-prices__item::before
+{
+	position: absolute;
+	content: '';
+	top: 8px;
+	left: 0;
+
+	display: block;
+
+	width: 18px;
+	height: 19px;
+
+	background: url(../images/ic_paw.svg) 50%/contain no-repeat;
+}
+
+.service-prices__item._note::before
+{
+	display: none;
+}
+
+.service-prices__item._note::after
+{
+	position: absolute;
+	content: '';
+	top: 3px;
+	left: 12px;
+
+	display: block;
+
+	width: 15px;
+	height: 15px;
+
+	background: url(../images/ic_star_note.svg) 50%/contain no-repeat;
 }
 /*------------
     commit
