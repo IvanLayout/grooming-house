@@ -1767,6 +1767,16 @@ html.with-fancybox{
     }
 }
 
+/*------------
+    haircut-prices
+------------*/
+
+.haircut-prices
+{
+	position: relative;
+	padding: 60px 0 175px;
+}
+
 
 /*------------
     commit
