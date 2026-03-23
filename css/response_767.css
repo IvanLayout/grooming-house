@@ -7,6 +7,12 @@
 		padding-bottom: 30px;
 	}
 
+	.first-section__img
+	{
+		right: -15px;
+		padding-top: 90px;
+	}
+
 	.first-section__title 
 	{
 		font-size: 22px;

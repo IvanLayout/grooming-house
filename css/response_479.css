@@ -160,6 +160,50 @@
 		font-size: 12px;
 	}
 
+	
+	.first-section__bg-mob
+	{
+		display: block;
+	}
+
+	.first-section__wrap
+	{
+		max-width: 262px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 26px;
+        padding-bottom: 35px;
+		margin: 0 auto;
+	}
+
+	.first-section__img 
+	{
+		right: -4px;
+		padding-top: 128px;
+	}
+
+	.first-section__title 
+	{
+		font-size: 20px;
+	}
+
+	.first-section__sub-title
+	{
+		font-size: 12px;
+	}
+
+	.first-section__btn
+	{
+		text-align: left;
+		padding-left: 15px;
+		margin-top: 40px;
+	}
+
+	.first-section__btn .btn-gold
+	{
+		line-height: 28px;
+	}
+
 
 	.services__bg
 	{
