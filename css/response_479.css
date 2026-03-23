@@ -174,8 +174,11 @@
 		width: 100%;
 		margin-left: 0;
 		margin-top: 20px;
-		min-height: 146px;
 		border-radius: 5px;
+	}
+
+	.services__box
+	{
 		padding-top: 10px;
 	}
 

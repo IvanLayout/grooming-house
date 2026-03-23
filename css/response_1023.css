@@ -300,13 +300,15 @@
 
 	.services__item 
 	{
-		padding: 15px;
-		min-height: 166px;
-
 		width: calc(100% / 3 - 16px);
 		margin-top: 16px;
 		margin-left: 16px;
 		border-radius: 10px;
+	}
+
+	.services__box
+	{
+		padding: 15px;
 	}
 
 	.services__name 

@@ -1645,40 +1645,43 @@ html.with-fancybox{
 	width: calc(100%/3 - 20px);
 	margin: 24px 0 0 20px;
 
-	display: flex;
-	flex-direction: column;
+	display: block;
 
 	text-decoration: none;
 	position: relative;
 	background: #fff;
 	border-radius: 20px;
-	padding: 45px 40px 54px;
 	overflow: hidden;
 
 	color: #464549;
 	box-shadow: 2px 2px 6px rgba(0, 0, 0, .15);
-
-	min-height: 360px;
 }
 
 .services__img
+{
+	display: block;
+
+	width: 100%;
+    aspect-ratio: 493 / 361;
+}
+
+.services__box
 {
 	position: absolute;
 	top: 0;
 	left: 0;
 
-	display: block;
+	display: flex;
+	flex-direction: column;
 
 	width: 100%;
 	height: 100%;
 
-	object-fit: cover;
-	border-radius: 20px;
+	padding: 45px 40px 54px;
 }
 
 .services__name
 {
-	position: relative;
 	font-size: 30px;
 	line-height: 1.13;
 	font-weight: 600;
@@ -1689,7 +1692,6 @@ html.with-fancybox{
 .services__go-service
 {
 	margin-top: 20px;
-	position: relative;
 }
 
 .services__go-service span
@@ -2765,7 +2767,7 @@ html.with-fancybox{
 	}
 
 
-	.services__item
+	.services__box
 	{
 		padding: 40px 30px;
 	}

@@ -74,10 +74,9 @@
 	}
 
 
-	.services__item
+	.services__box
 	{
 		padding: 25px 20px;
-		min-height: 240px;
 	}
 
 	.services__name 
