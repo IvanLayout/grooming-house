@@ -1969,6 +1969,12 @@ html.with-fancybox{
 	margin-top: 25px;
 }
 
+.service-table__two th,
+.service-table__two td
+{
+	width: 50%;
+}
+
 .service-table__w
 {
 	width: 310px;
