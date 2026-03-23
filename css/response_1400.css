@@ -19,5 +19,12 @@
     /*------------
 		commit
 	------------*/
-	
+	.price-list__title{
+		font-size: 30px;
+	}
+
+	.price-list__table td{
+		font-size: 18px;
+		padding-top: 24px;
+	}
 }

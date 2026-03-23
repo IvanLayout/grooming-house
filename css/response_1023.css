@@ -502,6 +502,89 @@
 	}
 
 
+	.about-service{
+		padding: 50px 0;
+	}
+
+	.about-service__img{
+		border-radius: 10px;
+	}
+
+	.about-service__colr {
+		width: calc(45% - 20px);
+	}
+
+	.about-service__btn{
+		margin-top: 30px;
+	}
+
+
+	.stages_pad{
+		padding: 50px 0;
+	}
+
+	.stages__items{
+		margin-top: 26px;
+
+		row-gap: 20px;
+		border-radius: 10px;
+	}
+
+	.stages__item{
+		width: calc(50% - 8px);
+	}
+
+	.stages__number {
+		min-width: 45px;
+		font-size: 60px;
+	}
+
+	.stages__title{
+		font-size: 18px;
+	}
+
+	.stages__desc{
+		margin-top: 20px;
+	}
+
+
+	.gallery-photo_pad{
+		padding: 50px 0;
+	}
+
+
+	.gallery-photo__slider{
+		margin-top: 26px;
+	}
+
+
+	.price-list_pad{
+		padding: 50px 0;
+	}
+
+
+	.price-list__grid {
+        margin-top: 26px;
+        row-gap: 20px;
+    }
+
+	.price-list__grid .price-list__line {
+		width: calc(100% / 2 - 30px);
+	}
+
+	.price-list__title{
+		font-size: 18px;
+	}
+
+	.price-list__table{
+		max-width: none;
+	}
+
+	.price-list__table td{
+		padding-top: 12px;
+	}
+
+
 	.footer{
 		padding: 30px 0;
 	}

@@ -121,6 +121,22 @@
 	}
 
 
+	.stages__item{
+		padding: 25px;
+		column-gap: 10px;
+	}
+
+
+	.price-list__title {
+		font-size: 20px;
+	}
+
+	.price-list__table td{
+		font-size: 14px;
+		padding-top: 16px;
+	}
+
+
 	.footer__contacts {
 		width: 440px;
 	}

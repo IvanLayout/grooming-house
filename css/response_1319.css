@@ -123,4 +123,15 @@
 	.small-title{
 		font-size: 28px;
 	}
+
+
+	.price-list__title {
+		font-size: 24px;
+		margin-bottom: 0;
+	}
+
+	.price-list__table td{
+		font-size: 16px;
+		padding-top: 20px;
+	}
 }
