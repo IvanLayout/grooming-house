@@ -158,4 +158,22 @@
 	.price-list__info{
 		font-size: 16px;
 	}
+
+
+	.modal{
+		padding-bottom: 42px;
+	}
+
+	.modal .main-socials{
+		margin-top: 40px;
+	}
+
+	.modal .main-socials-link{
+		width: 40px;
+		height: 40px;
+	}
+
+	.modal .main-socials-link + .main-socials-link{
+		margin-left: 28px;
+	}
 }

@@ -643,4 +643,34 @@
 	.footer__socials-desc{
 		margin-top: 8px;
 	}
+
+
+	.modal{
+		width: 380px;
+		padding: 22px 20px 40px;
+	}
+
+	.fancybox__content > .carousel__button.is-close{
+		top: 10px;
+		right: 10px;
+		width: 18px;
+		height: 18px;
+	}
+
+	.modal__title{
+		font-size: 18px;
+	}
+
+	.modal .main-socials{
+		margin-top: 31px;
+	}
+
+	.modal .main-socials-link + .main-socials-link{
+		margin-left: 26px;
+	}
+
+	.modal .main-socials-link{
+		width: 35px;
+		height: 35px;
+	}
 }

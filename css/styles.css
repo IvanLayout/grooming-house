@@ -1163,7 +1163,7 @@ button
 
 .fancybox__slide
 {
-    padding: 16px;
+    padding: 16px 10px;
 }
 
 .fancybox__slide.has-video
@@ -1201,10 +1201,10 @@ html.with-fancybox{
 
 .fancybox__content > .carousel__button.is-close
 {
-    top: 25px;
-    right: 25px;
+    top: 20px;
+    right: 20px;
 
-    color: #282828;
+    color: #464549;
 
     display: flex;
     justify-content: center;
@@ -1228,7 +1228,7 @@ html.with-fancybox{
 {
     .fancybox__content > .carousel__button.is-close:hover
     {
-        color: #00684D;
+        color: #D8B75A;
     }
 }
 
@@ -2585,6 +2585,11 @@ html.with-fancybox{
 	max-width: 648px;
 }
 
+.about-service__coll-width{
+	max-width: none;
+	width: 42.11%;
+}
+
 .about-service__btn{
 	text-align: center;
 	margin-top: 42px;
@@ -2604,6 +2609,14 @@ html.with-fancybox{
 	display: none;
 }
 
+.about-service__colr_end{
+	align-self: flex-end;
+	max-width: none;
+	width: calc(57.89% + 155px);
+	margin-bottom: -86px;
+	margin-right: -155px;
+}
+
 .about-service__img{
 	display: block;
 	width: 100%;
@@ -2611,6 +2624,11 @@ html.with-fancybox{
 	border-radius: 20px;
 	position: relative;
 	z-index: 2;
+}
+
+.about-service__dog{
+	display: block;
+	max-width: 100%;
 }
 
 
@@ -3102,12 +3120,29 @@ html.with-fancybox{
     display: none;
     visibility: visible !important;
 
-    width: 659px;
+    width: 600px;
     max-width: 100%;
-    padding: 50px;
+    padding: 42px 20px 65px;
 
-    border-radius: 10px;
     background: #FFF;
+}
+
+.modal__title{
+	text-align: center;
+}
+
+.modal .main-socials{
+	margin-top: 56px;
+	justify-content: center;
+}
+
+.modal .main-socials-link{
+	width: 52px;
+	height: 52px;
+}
+
+.modal .main-socials-link + .main-socials-link{
+	margin-left: 38px;
 }
 
 @media (max-width: 1600px)
