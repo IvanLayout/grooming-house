@@ -470,6 +470,10 @@
 		margin-bottom: 20px;
 	}
 
+	.text-block h3{
+		font-size: 14px;
+	}
+
 
 	.section-divider{
 		height: auto;
@@ -505,6 +509,57 @@
 
 	.about__img{
 		border-radius: 10px;
+	}
+
+
+	.price-list__grid .price-list__line{
+		width: calc(100% / 2 - 30px);
+		flex-grow: 1;
+	}
+
+	.price-list__grid .price-list__table{
+		max-width: none;
+	}
+
+	.price-list__btn{
+		margin-top: 30px;
+	}
+
+	.price-list__info{
+		margin-top: 20px;
+	}
+
+	
+	.gallery-photo__slider_marg{
+		margin-top: 26px;
+	}
+
+
+	.price-list__table .price-list__name {
+		width: 34%;
+	}
+
+
+	.main-gallery_pad2{
+		padding: 50px 0;
+	}
+
+
+	.about-service__btn{
+		margin-top: 30px;
+	}
+
+	.about-service__colr {
+		width: calc(45% - 20px);
+	}
+
+
+	.trimming__colr {
+		width: calc(50% + 102px);
+	}
+
+	.trimming__btn{
+		margin-top: 30px;
 	}
 
 

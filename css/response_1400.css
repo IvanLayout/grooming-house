@@ -31,10 +31,20 @@
 	------------*/
 	.price-list__title{
 		font-size: 30px;
+		margin-bottom: 27px;
+	}
+
+	.price-list__table th{
+		font-size: 30px;
+		padding-bottom: 27px;
 	}
 
 	.price-list__table td{
 		font-size: 18px;
 		padding-top: 24px;
+	}
+
+	.price-list__info{
+		font-size: 16px;
 	}
 }

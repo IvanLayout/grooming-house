@@ -122,11 +122,39 @@
 
 	.price-list__title {
 		font-size: 20px;
+		margin-bottom: 16px;
+	}
+
+	.price-list__table th{
+		font-size: 20px;
+		padding-bottom: 16px;
 	}
 
 	.price-list__table td{
 		font-size: 14px;
 		padding-top: 16px;
+	}
+	.price-list__table td span{
+		font-size: 14px;
+	}
+
+	.price-list__info{
+		font-size: 14px;
+	}
+
+
+	.trimming__coll{
+		padding: 50px 0;
+	}
+
+
+	.stages__number{
+		font-size: 80px;
+		min-width: 60px;
+	}
+
+	.stages__item_big .stages__number{
+		min-width: 60px;
 	}
 
 

@@ -361,6 +361,10 @@
 		font-size: 12px;
 	}
 
+	.text-block h3{
+		font-size: 12px;
+	}
+
 
 	.gallery-salon__slider{
 		margin-top: 21px;
@@ -460,6 +464,10 @@
 		padding-bottom: 0;
 	}
 
+	.stages__item_big .stages__number{
+		min-width: 34px;
+	}
+
 	.stages__box{
 		padding: 12px 0 18px;
 	}
@@ -474,17 +482,34 @@
 		margin-top: 16px;
 	}
 
-	.price-list__grid {
+	.price-list__marg{
         margin-top: 15px;
+	}
+
+	.price-list__grid {
         row-gap: 10px;
     }
 
 	.price-list__title{
 		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	.price-list__table th{
+		font-size: 15px;
+		padding-bottom: 10px;
 	}
 
 	.price-list__table td{
 		padding-top: 10px;
+		font-size: 12px;
+	}
+
+	.price-list__table td span{
+		font-size: 12px;
+	}
+
+	.price-list__info{
 		font-size: 12px;
 	}
 

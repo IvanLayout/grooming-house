@@ -138,11 +138,24 @@
 
 	.price-list__title {
 		font-size: 24px;
-		margin-bottom: 0;
+		margin-bottom: 20px;
+	}
+
+	.price-list__table th{
+		font-size: 24px;
+		padding-bottom: 20px;
 	}
 
 	.price-list__table td{
 		font-size: 16px;
 		padding-top: 20px;
+	}
+
+	.price-list__table td span{
+		font-size: 14px;
+	}
+
+	.price-list__info{
+		font-size: 16px;
 	}
 }
