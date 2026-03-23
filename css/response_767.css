@@ -51,8 +51,13 @@
 
 	.adventures
 	{
-		padding-top: 30px;
+		padding-top: 10px;
 		padding-bottom: 30px;
+	}
+
+	.adventures__item
+	{
+		padding-top: 20px;
 	}
 
 	.adventures__icon 

@@ -86,11 +86,6 @@
 	}
 
 
-	.adventures__grid 
-	{
-		column-gap: 40px;
-	}
-
 	.adventures__info
 	{
 		width: calc(100% - 80px);

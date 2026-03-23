@@ -5,16 +5,26 @@
 		max-width: 540px;
 	}
 
+
+	.adventures
+	{
+		padding-top: 15px;
+		padding-bottom: 75px;
+	}
+
 	.adventures__grid
 	{
 		column-gap: 80px;
 	}
 
-
-	.adventures
+	.adventures__item
 	{
-		padding-top: 75px;
-		padding-bottom: 75px;
+		padding-top: 60px;
+	}
+
+	.adventures__name
+	{
+		font-size: 24px;
 	}
     /*------------
 		commit

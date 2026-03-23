@@ -1706,9 +1706,20 @@ html.with-fancybox{
     vertical-align: top;
 
     border-radius: 999px;
-    background: linear-gradient(90deg, #F2DA96, #D8B75A);
+	background: linear-gradient(to right, rgba(242,218,150,1) 0%,rgba(216,183,90,1) 50%,rgba(242,218,150,1) 100%);
+	background-size: 200% auto;
+    background-position: 0 center;
 
     transition: background .2s linear;
+}
+
+
+@media (any-hover: hover)
+{
+    .services__item:hover .services__go-service span
+    {
+        background-position: 100% center;
+    }
 }
 
 
@@ -1718,7 +1729,7 @@ html.with-fancybox{
 
 .adventures
 {
-	padding: 110px 0 100px;
+	padding: 40px 0 100px;
 }
 
 .adventures__grid
@@ -1733,11 +1744,7 @@ html.with-fancybox{
 .adventures__item
 {
     break-inside: avoid;
-}
-
-.adventures__item + .adventures__item
-{
-	margin-top: 70px;
+	padding-top: 70px;
 }
 
 .adventures__icon

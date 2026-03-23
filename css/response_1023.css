@@ -324,7 +324,7 @@
 
 	.adventures
 	{
-		padding-top: 50px;
+		padding-top: 10px;
 		padding-bottom: 50px;
 	}
 
@@ -333,14 +333,10 @@
 		column-gap: 16px;
 	}
 
-	.adventures__item + .adventures__item 
-	{
-		margin-top: 40px;
-	}
-
 	.adventures__item
 	{
 		text-align: center;
+		padding-top: 40px;
 	}
 
 	.adventures__icon

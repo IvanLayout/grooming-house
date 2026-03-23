@@ -78,6 +78,22 @@
 	{
 		font-size: 18px;
 	}
+
+
+	.adventures__grid 
+	{
+		column-gap: 30px;
+	}
+
+	.adventures__info 
+	{
+		width: calc(100% - 90px);
+	}
+
+	.adventures__name 
+	{
+		font-size: 22px;
+	}
 	/*------------
 		commit
 	------------*/
