@@ -1493,13 +1493,6 @@ html.with-fancybox{
     background: #E5E5E5;
 }
 
-
-
-._marg
-{
-    
-}
-
 /*------------------------
 	Start
 ------------------------*/
@@ -3286,6 +3279,8 @@ html.with-fancybox{
 {
 	background: #706559;
 	padding: 56px 0;
+
+	position: relative;
 }
 
 .footer .cont{
@@ -3448,6 +3443,29 @@ html.with-fancybox{
 	margin-left: 38px;
 }
 
+@media (max-width: 1700px)
+{
+	.service-prices__abc2
+	{
+		margin-left: 590px;
+	}
+
+	.service-prices__abc3
+	{
+		margin-left: 570px;
+	}
+
+	.service-prices__abc4
+	{
+		margin-left: 325px;
+	}
+
+	.service-prices__abc5
+	{
+		margin-left: 450px;
+	}
+}
+
 @media (max-width: 1600px)
 {
 	.pattern-img-abc,
@@ -3457,7 +3475,7 @@ html.with-fancybox{
 	.service-prices__abc4,
 	.service-prices__abc5
 	{
-		/* display: none; */
+		display: none;
 	}
     /*------------
 		commit
