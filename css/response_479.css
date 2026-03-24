@@ -364,6 +364,32 @@
 	{
 		margin-top: -10px;
 	}
+
+
+	.haircut-prices__box
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 93px;
+	}
+
+	.haircut-prices__item
+	{
+		margin-top: 15px;
+	}
+
+	.haircut-prices__btn
+	{
+		line-height: 24px;
+	}
+
+	.haircut-prices__img
+	{
+		top: -129px;
+		right: 4px;
+		height: 131px;
+		width: 134px;
+	}
     /*------------
 		commit
 	------------*/
