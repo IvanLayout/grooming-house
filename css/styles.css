@@ -948,35 +948,32 @@ button
     }
 }
 
-.text-block h2 + ul,
-.text-block h3 + ul,
-.text-block h4 + ul,
-.text-block h2 + ol,
-.text-block h3 + ol,
-.text-block h4 + ol
-{
-	margin-top: -10px;
-}
-
 .text-block ul
 {
-    margin-left: 26px;
+    margin-bottom: 28px;
+	list-style: none;
 }
 
-.text-block p + ul
-{
-    margin-top: -16px;
+.text-block ul li{
+	display: block;
+	padding-left: 28px;
+	position: relative;
+}
+
+.text-block ul li::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 12px;
+	height: 12px;
+	background: url(../images/ic_list.svg) 50%/contain no-repeat;
 }
 
 .text-block ol
 {
     margin-left: 22px;
 	margin-bottom: 20px;
-}
-
-.text-block p + ol
-{
-    margin-top: -16px;
 }
 
 

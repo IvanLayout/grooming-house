@@ -568,6 +568,14 @@
 		margin-bottom: 20px;
 	}
 
+	.text-block ul{
+		margin-bottom: 20px;
+	}
+
+	.text-block ul li::before{
+		top: 6px;
+	}
+
 	.text-block h3{
 		font-size: 14px;
 	}

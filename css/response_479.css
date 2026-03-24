@@ -332,7 +332,7 @@
 		margin-top: 6px;
 	}
 
-	.service-table th
+	/* .service-table th
 	{
 		padding-left: 4px;
 		word-break: break-all;
@@ -342,7 +342,7 @@
 	{
 		padding-left: 4px;
 		word-break: break-all;
-	}
+	} */
 
 	.service-table th, 
 	.service-table td:first-child, 
@@ -448,6 +448,16 @@
 
 	.text-block h3{
 		font-size: 12px;
+	}
+
+	.text-block ul li{
+		padding-left: 20px;
+	}
+
+	.text-block ul li::before{
+		top: 5px;
+		width: 10px;
+		height: 10px;
 	}
 
 
