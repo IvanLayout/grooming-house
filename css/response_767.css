@@ -255,6 +255,7 @@
 		width: 7px;
 		height: 7px;
 	}
+	
     /*------------
 		commit
 	------------*/
@@ -436,8 +437,15 @@
 		margin-top: -1px;
 	}
 
+	.our-visiters__grid
+	{
+		gap: 16px 0;
+		margin-left: -16px;
+	}
+
 	.our-visiters__photo {
 		width: calc(100% / 3 - 16px);
+		margin-left: 16px;
 	}
 
 	.our-visiters__photo {
@@ -447,6 +455,13 @@
 
 	.error-page{
 		padding: 25px 0;
+		min-height: calc(70vh - 98px);
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		flex-wrap: wrap;
 	}
 
 	.error-page__box{
@@ -460,6 +475,11 @@
 	.error-page__desc{
 		font-size: 12px;
 		margin-top: 0;
+	}
+
+	.error-page__img
+	{
+		display: none;
 	}
 
 
