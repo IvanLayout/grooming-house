@@ -1888,12 +1888,106 @@ html.with-fancybox{
 
 
 /*------------
+    pattern-img
+------------*/
+.pattern-img-abc1
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+}
+
+.pattern-img-abc2
+{
+	position: absolute;
+	top: 870px;
+	right: 0;
+
+	display: block;
+}
+
+.pattern-img-abc3
+{
+	position: absolute;
+	top: -50px;
+	left: 0;
+
+	display: block;
+}
+
+.pattern-img-abc4
+{
+	position: absolute;
+	top: -348px;
+	right: 0;
+
+	display: block;
+}
+
+.pattern-img-abc5
+{
+	position: absolute;
+	top: 1880px;
+	left: 0;
+
+	display: block;
+}
+
+.pattern-img-abc6
+{
+	position: absolute;
+	bottom: -85px;
+	right: 0;
+
+	display: block;
+}
+
+.pattern-img-abc7
+{
+	position: absolute;
+	top: 1300px;
+	left: 0;
+
+	display: block;
+}
+
+.pattern-img-abc8
+{
+	position: absolute;
+	bottom: -350px;
+	left: 0;
+
+	display: block;
+}
+
+.pattern-img-abc9
+{
+	position: absolute;
+	top: -310px;
+	right: 0;
+
+	display: block;
+}
+
+.pattern-img-abc10
+{
+	position: absolute;
+	bottom: -207px;
+	right: 0;
+
+	display: block;
+}
+
+/*------------
     service-prices
 ------------*/
 
 .service-prices
 {
 	position: relative;
+	overflow: hidden;
 }
 
 .service-prices__abc1
