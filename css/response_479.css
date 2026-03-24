@@ -1,5 +1,17 @@
 @media (max-width: 479px)
 {
+	.breadcrumbs
+	{
+		padding-top: 13px;
+		padding-bottom: 14px;
+	}
+
+	.form__flex .form__line
+	{
+		width: 100%;
+		max-width: 100%;
+	}
+
 	.btn-gold
 	{
 		line-height: 28px;
