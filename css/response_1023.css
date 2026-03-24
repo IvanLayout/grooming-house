@@ -412,6 +412,72 @@
 	{
 		padding-bottom: 50px;
 	}
+
+
+	.service-table_marg 
+	{
+        margin-top: 26px;
+    }
+
+	.service-table th, 
+	.service-table td:first-child, 
+	.service-prices__note, 
+	.service-prices__item 
+	{
+		font-size: 16px;
+	}
+
+	.service-table th
+	{
+		padding-bottom: 10px;
+	}
+
+	.service-table td
+	{
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		font-size: 14px;
+	}
+
+	.service-table_name-fixed th:first-child, 
+	.service-table_name-fixed td:first-child 
+	{
+		width: 230px;
+	}
+
+	.service-table__w 
+	{
+		width: 180px;
+	}
+
+	.service-table td div + div 
+	{
+		margin-top: 10px;
+	}
+
+	.service-prices__item 
+	{
+		padding-left: 20px;
+		margin-top: 15px;
+	}
+
+	.service-prices__note
+	{
+		margin-top: 15px;
+	}
+
+	.service-prices__item::before 
+	{
+		top: 4px;
+		width: 12px;
+		height: 13px;
+	}
+
+	.service-prices__item._note::after
+	{
+		left: 7px
+	}
     /*------------
 		commit
 	------------*/
