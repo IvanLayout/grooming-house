@@ -99,6 +99,79 @@
 		width: 60px;
 		height: 49px;
 	}
+
+
+	.haircut-prices__items
+	{
+		margin-left: -30px;
+	}
+
+	.haircut-prices__item 
+	{
+		width: calc(100% / 3 - 30px);
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+
+	.haircut-prices__btn
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+
+	.service-table th, 
+	.service-table td:first-child, 
+	.service-prices__note, 
+	.service-prices__item
+	{
+		font-size: 18px;
+	}
+
+	.service-table_name-fixed th:first-child, 
+	.service-table_name-fixed td:first-child 
+	{
+		width: 300px;
+	}
+
+	.service-table__w 
+	{
+		width: 210px;
+	}
+
+	.service-table th
+	{
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	.service-table td
+	{
+		padding-left: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+
+	.service-prices__item
+	{
+		padding-left: 25px;
+	}
+
+	.service-prices__item::before 
+	{
+		top: 3px;
+		width: 16px;
+		height: 17px;
+	}
+
+	.service-prices__item._note::after 
+	{
+		top: 2px;
+		left: 12px;
+		width: 10px;
+		height: 10px;
+	}
     /*------------
 		commit
 	------------*/

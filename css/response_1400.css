@@ -26,6 +26,17 @@
 	{
 		font-size: 24px;
 	}
+
+
+	.service-prices__pad
+	{
+		padding-top: 75px;
+	}
+
+	.service-prices__pad-bot
+	{
+		padding-bottom: 75px;
+	}
     /*------------
 		commit
 	------------*/

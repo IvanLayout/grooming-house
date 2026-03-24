@@ -1884,100 +1884,82 @@ html.with-fancybox{
 	position: relative;
 	right: -35px;
     bottom: -52px;
+
+	min-width: 40px;
 }
 
 
 /*------------
     pattern-img
 ------------*/
-.pattern-img-abc1
+
+.pattern-img-abc
 {
 	position: absolute;
+
+	display: block;
+}
+
+.pattern-img-abc_1
+{
 	top: 0;
 	left: 0;
-
-	display: block;
 }
 
-.pattern-img-abc2
+.pattern-img-abc_2
 {
-	position: absolute;
 	top: 870px;
 	right: 0;
-
-	display: block;
 }
 
-.pattern-img-abc3
+.pattern-img-abc_3
 {
-	position: absolute;
 	top: -50px;
 	left: 0;
-
-	display: block;
 }
 
-.pattern-img-abc4
+.pattern-img-abc_4
 {
-	position: absolute;
 	top: -348px;
 	right: 0;
-
-	display: block;
 }
 
-.pattern-img-abc5
+.pattern-img-abc_5
 {
-	position: absolute;
 	top: 1880px;
 	left: 0;
-
-	display: block;
 }
 
-.pattern-img-abc6
+.pattern-img-abc_6
 {
-	position: absolute;
 	bottom: -85px;
 	right: 0;
-
-	display: block;
 }
 
-.pattern-img-abc7
+.pattern-img-abc_7
 {
-	position: absolute;
 	top: 1300px;
 	left: 0;
-
-	display: block;
 }
 
-.pattern-img-abc8
+.pattern-img-abc_8
 {
-	position: absolute;
 	bottom: -350px;
 	left: 0;
-
-	display: block;
 }
 
-.pattern-img-abc9
+.pattern-img-abc_9
 {
-	position: absolute;
 	top: -310px;
 	right: 0;
-
-	display: block;
 }
 
-.pattern-img-abc10
+.pattern-img-abc_10
 {
-	position: absolute;
 	bottom: -207px;
 	right: 0;
 
-	display: block;
+	min-height: 210px;
 }
 
 /*------------
@@ -3403,7 +3385,15 @@ html.with-fancybox{
 
 @media (max-width: 1600px)
 {
-	
+	.pattern-img-abc,
+	.service-prices__abc1,
+	.service-prices__abc2,
+	.service-prices__abc3,
+	.service-prices__abc4,
+	.service-prices__abc5
+	{
+		display: none;
+	}
     /*------------
 		commit
 	------------*/
@@ -3466,6 +3456,52 @@ html.with-fancybox{
 	.services__name
 	{
 		font-size: 28px;
+	}
+
+	.haircut-prices__item
+	{
+		margin-top: 40px;
+	}
+
+	.haircut-prices__btn
+	{
+		font-size: 23px;
+	}
+
+	.service-table_marg
+	{
+		margin-top: 40px;
+	}
+
+	.service-table th,
+	.service-table td:first-child,
+	.service-prices__note,
+	.service-prices__item
+	{
+		font-size: 22px;
+	}
+
+	.service-table th
+	{
+		padding-bottom: 25px;
+	}
+
+	.service-table td
+	{
+		font-size: 18px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.service-prices__item,
+	.service-prices__note
+	{
+		margin-top: 25px;
+	}
+
+	.service-prices__item::before
+	{
+		top: 6px;
 	}
     /*------------
 		commit

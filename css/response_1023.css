@@ -380,6 +380,38 @@
 	{
 		font-size: 14px;
 	}
+
+
+	.haircut-prices__items
+	{
+		margin-left: -10px;
+		justify-content: flex-start;
+	}
+
+	.haircut-prices__item 
+	{
+		width: auto;
+		margin-left: 10px;
+		margin-top: 16px;
+	}
+
+	.haircut-prices__btn
+	{
+		line-height: 40px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+
+	.service-prices__pad
+	{
+		padding-top: 50px;
+	}
+	
+	.service-prices__pad-bot
+	{
+		padding-bottom: 50px;
+	}
     /*------------
 		commit
 	------------*/

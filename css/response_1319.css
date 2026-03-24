@@ -89,6 +89,69 @@
 	{
 		font-size: 22px;
 	}
+
+
+	.haircut-prices
+	{
+		padding-top: 40px;
+	}
+
+	.haircut-prices__btn
+	{
+		font-size: 20px;
+		line-height: 47px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+
+	.service-table_name-fixed th:first-child, 
+	.service-table_name-fixed td:first-child 
+	{
+		width: 340px;
+	}
+
+	.service-table__w 
+	{
+		width: 240px;
+	}
+
+	.service-table th,
+	.service-table td:first-child,
+	.service-prices__note,
+	.service-prices__item
+	{
+		font-size: 20px;
+	}
+
+	.service-table td
+	{
+		font-size: 16px;
+	}
+
+	.service-prices__item::before
+	{
+		top: 4px;
+	}
+
+	.service-table td div + div 
+	{
+		margin-top: 15px;
+	}
+
+	.service-prices__item, 
+	.service-prices__note 
+	{
+        margin-top: 20px;
+    }
+
+	.service-prices__item._note::after
+	{
+		top: 3px;
+		left: 14px;
+		width: 12px;
+		height: 12px;
+	}
 	/*------------
 		commit
 	------------*/
