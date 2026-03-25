@@ -1108,6 +1108,11 @@ button
 	padding: 80px 0;
 }
 
+.section-top_pad{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
 .main-title
 {
 	font-family: var(--font-family2);
@@ -3438,38 +3443,67 @@ html.with-fancybox{
 
 @media (max-width: 1700px)
 {
-	.service-prices__abc2
-	{
-		margin-left: 590px;
+	.service-prices__pad{
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
-	.service-prices__abc3
-	{
-		margin-left: 570px;
+	.pattern-img-abc_1,
+	.pattern-img-abc_5,
+	.pattern-img-abc_7,
+	.pattern-img-abc_8{
+		width: 18vw;
 	}
 
-	.service-prices__abc4
-	{
-		margin-left: 325px;
+	.pattern-img-abc_2,
+	.pattern-img-abc_4,
+	.pattern-img-abc_6,
+	.pattern-img-abc_9{
+		width: 23vw;
 	}
 
-	.service-prices__abc5
-	{
-		margin-left: 450px;
+	.pattern-img-abc_3{
+		width: 22vw;
+	}
+
+	.pattern-img-abc_10{
+		width: 30vw;
+	}
+
+	.service-prices__abc4{
+		left: 81%;
+        width: 18vw;
+		margin-left: 0;
+	}
+
+	.service-prices__abc5{
+		left: 87%;
+		width: 20vw;
+		margin-left: 0;
+	}
+
+	.service-prices__abc3{
+		left: 85%;
+		width: 34vw;
+		margin-left: 0;
+	}
+
+	.service-prices__abc2{
+		top: -5%;
+        left: 88%;
+        width: 16vw;
+		margin-left: 0;
+	}
+
+	.service-prices__abc1{
+		left: 87%;
+		width: 25vw;
+		margin-left: 0;
 	}
 }
 
 @media (max-width: 1600px)
 {
-	.pattern-img-abc,
-	.service-prices__abc1,
-	.service-prices__abc2,
-	.service-prices__abc3,
-	.service-prices__abc4,
-	.service-prices__abc5
-	{
-		display: none;
-	}
     /*------------
 		commit
 	------------*/

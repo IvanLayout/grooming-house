@@ -540,6 +540,11 @@
 		padding: 50px 0;
 	}
 
+	.section-top_pad{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
 	
 	.salon-manager{
 		padding: 50px 0;
