@@ -258,6 +258,22 @@
 	}
 
 
+	.service-prices__pad{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.pattern-img-abc,
+	.service-prices__abc1,
+	.service-prices__abc2,
+	.service-prices__abc3,
+	.service-prices__abc4,
+	.service-prices__abc5
+	{
+		display: none;
+	}
+
+
 	.footer__contacts {
 		width: 440px;
 	}
